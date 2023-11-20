@@ -4,7 +4,7 @@ import configparser
 
 # SECTION - config:
 config = configparser.ConfigParser()
-config.read('/root/dev/config.ini')
+config.read('/root/dev/.config.ini')
 
 USER_KEY = config.get('Pushover', 'user_key') #NOTE - Your Pushover User key
 API_KEY = config.get('Pushover', 'api_key') #NOTE - Your Pushover API key
